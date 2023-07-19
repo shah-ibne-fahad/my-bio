@@ -3,14 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+/* .container{
     max-width: 500px;
     margin: 0 auto;
 }
 a{
-    /* margin: 20px; */
+    margin: 20px;
     display: inline-block;
     background: red;
     padding: 20px;
+    position: relative;
+
+} */
+body{
+    font-family: sans-serif;
+}
+.image-container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.image{
+    height: 400px;
+    width: 100%;
+}
+.overlay{
+    height: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* width: 100%; */
+    background: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    color: white;
     margin: 20px;
 }
