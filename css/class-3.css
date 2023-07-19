@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    margin: 0 auto;
+}
+a{
+    /* margin: 20px; */
+    display: inline-block;
+    background: red;
+    padding: 20px;
+    margin: 20px;
+}
